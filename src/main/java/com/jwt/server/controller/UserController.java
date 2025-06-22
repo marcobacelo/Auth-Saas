@@ -1,10 +1,10 @@
-package com.jwt.server.jwtserver.controller;
+package com.jwt.server.controller;
 
-import com.jwt.server.jwtserver.controller.dto.CreateUserDto;
-import com.jwt.server.jwtserver.entities.Role;
-import com.jwt.server.jwtserver.entities.User;
-import com.jwt.server.jwtserver.repository.RoleRepository;
-import com.jwt.server.jwtserver.repository.UserRepository;
+import com.jwt.server.controller.dto.CreateUserDto;
+import com.jwt.server.entities.Role;
+import com.jwt.server.entities.User;
+import com.jwt.server.repository.RoleRepository;
+import com.jwt.server.repository.UserRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;

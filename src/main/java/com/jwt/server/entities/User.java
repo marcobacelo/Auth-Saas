@@ -1,4 +1,4 @@
-package com.jwt.server.jwtserver.entities;
+package com.jwt.server.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import com.jwt.server.jwtserver.controller.dto.LoginRequest;
+import com.jwt.server.controller.dto.LoginRequest;
 
 import java.util.Set;
 import java.util.UUID;

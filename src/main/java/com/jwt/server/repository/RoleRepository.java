@@ -1,6 +1,6 @@
-package com.jwt.server.jwtserver.repository;
+package com.jwt.server.repository;
 
-import com.jwt.server.jwtserver.entities.Role;
+import com.jwt.server.entities.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

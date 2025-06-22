@@ -1,4 +1,4 @@
-package com.jwt.server.jwtserver.config;
+package com.jwt.server.config;
 
 import com.nimbusds.jose.jwk.JWK;
 import com.nimbusds.jose.jwk.JWKSet;

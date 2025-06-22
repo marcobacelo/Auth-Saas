@@ -1,4 +1,4 @@
-package com.jwt.server.jwtserver.entities;
+package com.jwt.server.entities;
 
 import jakarta.persistence.*;
 import lombok.Getter;

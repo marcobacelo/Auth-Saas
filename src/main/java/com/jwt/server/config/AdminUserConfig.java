@@ -1,9 +1,9 @@
-package com.jwt.server.jwtserver.config;
+package com.jwt.server.config;
 
-import com.jwt.server.jwtserver.entities.Role;
-import com.jwt.server.jwtserver.entities.User;
-import com.jwt.server.jwtserver.repository.RoleRepository;
-import com.jwt.server.jwtserver.repository.UserRepository;
+import com.jwt.server.entities.Role;
+import com.jwt.server.entities.User;
+import com.jwt.server.repository.RoleRepository;
+import com.jwt.server.repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
