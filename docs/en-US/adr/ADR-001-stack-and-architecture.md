@@ -1,6 +1,17 @@
 # ADR-001 — Stack and Architecture
 
-> Language: **EN-US** | [PT-BR](../../pt-BR/adr/ADR-001-stack-and-architecture.md)
+<p align="center">
+  <a href="ADR-001-stack-and-architecture.md"><img src="https://img.shields.io/badge/EN--US-ACTIVE-0052CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="EN-US active" /></a>
+  <a href="../../pt-BR/adr/ADR-001-stack-and-architecture.md"><img src="https://img.shields.io/badge/PT--BR-Switch-2E7D32?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Switch to PT-BR" /></a>
+</p>
+
+<p align="center">
+  <a href="../../../README.md"><img src="https://img.shields.io/badge/🏠_Home-0B1F3A?style=for-the-badge" alt="Home" /></a>
+  <a href="../README.md"><img src="https://img.shields.io/badge/📚_Docs-0B1F3A?style=for-the-badge" alt="Docs" /></a>
+  <a href="../stack.md"><img src="https://img.shields.io/badge/🧰_Stack-0B1F3A?style=for-the-badge" alt="Stack" /></a>
+  <a href="../architecture.md"><img src="https://img.shields.io/badge/🏗️_Architecture-0B1F3A?style=for-the-badge" alt="Architecture" /></a>
+  <a href="../roadmap.md"><img src="https://img.shields.io/badge/🗺️_Roadmap-0B1F3A?style=for-the-badge" alt="Roadmap" /></a>
+</p>
 
 **Status:** Accepted  
 **Date:** 2026-07-25  
@@ -95,7 +106,8 @@ Roadmap: Passkeys/WebAuthn, SAML, SMS OTP, SCIM, risk scoring.
 
 - Source code and identifiers: **en-US**
 - Product/architecture docs: **PT-BR and EN-US** Markdown under `docs/`
-- Every Markdown page must expose a language switch link to its counterpart
+- Every Markdown page must expose a **prominent language switch** (EN-US / PT-BR badges) to its counterpart
+- Docs are split by topic: Product, Stack, Architecture, Roadmap, Getting started, ADRs
 
 ## Consequences
 
@@ -110,3 +122,8 @@ Roadmap: Passkeys/WebAuthn, SAML, SMS OTP, SCIM, risk scoring.
 - Spring Boot Supported Versions / 4.0 Migration Guide
 - Spring Framework 7.0 Release Notes (JDK 25 recommendation)
 - OWASP Password Storage Cheat Sheet (Argon2id)
+
+<p align="center">
+  <a href="ADR-001-stack-and-architecture.md"><img src="https://img.shields.io/badge/EN--US-ACTIVE-0052CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="EN-US active" /></a>
+  <a href="../../pt-BR/adr/ADR-001-stack-and-architecture.md"><img src="https://img.shields.io/badge/PT--BR-Switch-2E7D32?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Switch to PT-BR" /></a>
+</p>
