@@ -53,3 +53,5 @@ curl -X POST http://localhost:8080/t/acme/v1/auth/login \
 - [PT-BR docs](docs/pt-BR/README.md)
 - [ADR-001 (EN)](docs/en-US/adr/ADR-001-stack-and-architecture.md)
 - [ADR-001 (PT)](docs/pt-BR/adr/ADR-001-stack-and-architecture.md)
+- [Roadmap (EN)](docs/en-US/ROADMAP.md) — start here in a new local IDE session
+- [Roadmap (PT)](docs/pt-BR/ROADMAP.md) — comece por aqui em uma nova sessão local

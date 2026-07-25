@@ -7,6 +7,7 @@ Plataforma de autenticação multi-tenant (`com.auth.saas`).
 ## Conteúdo
 
 - [ADR-001 — Stack e Arquitetura](adr/ADR-001-stack-and-architecture.md)
+- [Roadmap](ROADMAP.md) — retome o trabalho em uma nova sessão local por aqui
 
 ## Módulos
 
