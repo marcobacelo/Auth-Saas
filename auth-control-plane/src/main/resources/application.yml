@@ -1,0 +1,37 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: auth-control-plane
+  datasource:
+    url: jdbc:postgresql://${AUTH_DB_HOST:localhost}:${AUTH_DB_PORT:5432}/${AUTH_DB_NAME:auth_saas}
+    username: ${AUTH_DB_USER:auth}
+    password: ${AUTH_DB_PASSWORD:auth}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+  flyway:
+    enabled: false
+
+auth:
+  platform:
+    admin:
+      username: ${AUTH_PLATFORM_ADMIN_USER:platform-admin}
+      password: ${AUTH_PLATFORM_ADMIN_PASSWORD:change-me}
+  crypto:
+    argon2:
+      memory-kb: 65536
+      iterations: 3
+      parallelism: 1
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
